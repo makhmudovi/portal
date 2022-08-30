@@ -1,0 +1,50 @@
+.pizza {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+    .title {
+        width: 45%;
+    }
+
+    .image {
+        width: 45%;
+    }
+
+    h1 {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 60px;
+        line-height: 0px;
+        color: #FFFFFF;
+        border-bottom: 4px solid #F2C94C;
+        padding-bottom: 50px;
+    }
+
+    p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 40px;
+        letter-spacing: 0.09em;
+        color: #FFFFFF;
+    }
+
+    button {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 17px;
+        align-items: center;
+        color: #F2C94C;
+        background-color: transparent;
+        border: 1px solid #F2C94C;
+        padding: 10px;
+        cursor: pointer;
+        transition: all ease 0.5s;
+        &:hover {
+            background-color: #fff;
+            transition: all ease 0.5s;
+            color: black;
+        }
+    }
+}
